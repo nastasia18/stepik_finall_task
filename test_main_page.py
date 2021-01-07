@@ -2,6 +2,7 @@ from .pages.main_page import MainPage
 from .pages.login_page import LoginPage
 from .pages.basket_page import BasketPage
 import pytest
+import time
 
 
 def test_guest_can_go_to_login_form(browser):
