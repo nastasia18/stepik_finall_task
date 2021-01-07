@@ -19,3 +19,6 @@ class ProductPageLocators:
     PRICE_BASKET = (By.CSS_SELECTOR, ".alertinner p strong")
 
 
+class BasePageLocators:
+    LOGIN_LINK = (By.CSS_SELECTOR, "#login_link")
+
