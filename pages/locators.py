@@ -32,4 +32,3 @@ class BasePageLocators:
 class BasketPageLocators:
     PRODUCT_IN_BASKET = (By.CSS_SELECTOR, "#content_inner h2")
     TEXT_EMPTY = (By.CSS_SELECTOR, "#content_inner p")
-
